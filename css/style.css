@@ -24,7 +24,7 @@
    }
 }
 
-@keyframes row3 {
+@keyframes row3{
    0% {
       background-position: 0 -249.4px;
    }
@@ -33,12 +33,184 @@
       background-position: -504px -249.4px;
    }
 }
+@keyframes row4 {
+   0% {
+      background-position: 0 -374.1px;
+   }
+
+   100% {
+      background-position: -504px -374.1px;
+   }
+}
+
+ @keyframes row5 {
+   0% {
+      background-position: 0 -498.8px;
+   }
+
+   100% {
+      background-position: -504px -498.8px;
+   }
+}
+@keyframes row6 {
+   0% {
+      background-position: 0 -623.5px;
+   }
+
+   100% {
+      background-position: -504px -623.5px;
+   }
+}
+@keyframes row7 {
+   0% {
+      background-position: 0 -748.2px;
+   }
+
+   100% {
+      background-position: -504px -748.2px;
+   }
+}
+@keyframes row8 {
+   0% {
+      background-position: 0 -872.9px;
+   }
+
+   100% {
+      background-position: -504px -872.9px;
+   }
+}
+@keyframes row9 {
+   0% {
+      background-position: 0 -997.6px;
+   }
+
+   100% {
+      background-position: -504px -997.6px;
+   }
+}
+@keyframes row10 {
+   0% {
+      background-position: 0 -1122.3px;
+   }
+
+   100% {
+      background-position: -504px -1112.3px;
+   }
+}
+@keyframes row11 {
+   0% {
+      background-position: 0 -1247px;
+   }
+
+   100% {
+      background-position: -504px -1247px;
+   }
+}
+@keyframes row12 {
+   0% {
+      background-position: 0 -1371.7px;
+   }
+
+   100% {
+      background-position: -504px -1371.7px;
+   }
+}
+@keyframes row13 {
+   0% {
+      background-position: 0 -1496.4px;
+   }
+
+   100% {
+      background-position: -504px -1496.4px;
+   }
+}
+@keyframes row14 {
+   0% {
+      background-position: 0 -1621.1px;
+   }
+
+   100% {
+      background-position: -504px -1621.1px;
+   }
+}
+@keyframes row15 {
+   0% {
+      background-position: 0 -1745.8px;
+   }
+
+   100% {
+      background-position: -504px -1745.8px;
+   }
+}
+@keyframes row16 {
+   0% {
+      background-position: 0 -1870.5px;
+   }
+
+   100% {
+      background-position: -504px -1870.5px;
+   }
+}
+@keyframes row17 {
+   0% {
+      background-position: 0 -1995.2px;
+   }
+
+   100% {
+      background-position: -504px -1995.2px;
+   }
+ }
+@keyframes row18 {
+  0% {
+         background-position: 0 -2119.9px;
+      }
+
+    100% {
+         background-position: -504px -2119.9px;
+      }
+    }
+@keyframes row19 {
+         0% {
+        background-position: 0 -2244.6px;
+         }
+
+      100% {
+        background-position: -504px -2244.6px;
+         }
+       }
+@keyframes row20 {
+            0% {
+        background-position: 0 -2369.3px;
+            }
+
+            100% {
+         background-position: -504px -2369.3px;
+            }
+}
 
 #animation {
   animation:
    row1 1s steps(4) 0s none,
-   row2 1s steps(4) 1s none,
-   row3 1s steps(4) 2s none;
+   row2 1s steps(4) 0.5s none,
+   row3 1s steps(4) 1s none,
+   row4 1s steps(4) 1.5s none,
+   row5 1s steps(4) 2s none,
+   row6 1s steps(4) 2.5s none,
+   row7 1s steps(4) 3s none,
+   row8 1s steps(4) 3.5s none,
+   row9 1s steps(4) 4s none,
+   row10 1s steps(4) 4.5 none,
+   row11 1s steps(4) 5s none,
+   row12 1s steps(4) 5.5s none,
+   row13 1s steps(4) 6s none,
+   row14 1s steps(4) 6.5s none,
+   row15 1s steps(4) 7s none,
+   row16 1s steps(4) 7.5s none,
+   row17 1s steps(4) 8s none,
+   row18 1s steps(4) 8.5s none,
+   row19 1s steps(4) 9s none,
+   row20 1s steps(4) 10s none;
+
   width: 126px;
   height: 124.7px;
   background-image: url('../img/sprite.png');
