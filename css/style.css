@@ -1,50 +1,45 @@
+/*
+504 x 2494
+504/4 = 126
+2494/20 = 124.7
+
+*/
 @keyframes row1 {
    0% {
       background-position: 0 0;
    }
 
    100% {
-      background-position: -500px 0;
+      background-position: -504px 0;
    }
 }
 
 @keyframes row2 {
    0% {
-      background-position: 0 -125px;
+      background-position: 0 -124.7px;
    }
 
    100% {
-      background-position: -500px -125px;
+      background-position: -504px -124.7px;
    }
 }
 
 @keyframes row3 {
    0% {
-      background-position: 0 -250px;
+      background-position: 0 -249.4px;
    }
 
    100% {
-      background-position: -500px -250px;
+      background-position: -504px -249.4px;
    }
 }
-
-@keyframes row4 {
-   0% {
-      background-position: 0 -375px;
-   }
-
-   100% {
-      background-position: -500px -375px;
-   }
-}
-
 
 #animation {
-  animation: row1 1s steps(4) none,
+  animation:
+   row1 1s steps(4) 0s none,
    row2 1s steps(4) 1s none,
-   row3 1s steps(4) 2s none,
-   row4 1s steps(4) 3s none;
-  width: 125px;
-  height: 125px;
+   row3 1s steps(4) 2s none;
+  width: 126px;
+  height: 124.7px;
   background-image: url('../img/sprite.png');
 }
